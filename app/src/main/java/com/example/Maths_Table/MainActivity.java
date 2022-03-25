@@ -28,10 +28,10 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 String s = editText.getText().toString();
-                float a = Float.parseFloat(s);
+                int a = Integer.parseInt(s);
                 StringBuilder ans = new StringBuilder();
-                for(float i = 1;i<=10;++i){
-                    ans.append(a*i+"\n"+"\n");
+                for(int i = 1;i<=10;++i){
+                    ans.append("=> "+a+" X "+i+" = "+a*i+"\n"+"\n");
 
                 textView.setText(ans);
 
