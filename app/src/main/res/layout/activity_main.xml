@@ -33,7 +33,7 @@
         android:textSize="22sp"
         app:layout_constraintBottom_toTopOf="@+id/textView2"
         app:layout_constraintEnd_toStartOf="@+id/button"
-        app:layout_constraintHorizontal_bias="0.469"
+        app:layout_constraintHorizontal_bias="0.553"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView1"
         app:layout_constraintVertical_bias="0.0" />
@@ -43,8 +43,8 @@
         android:layout_width="128dp"
         android:layout_height="49dp"
         android:layout_marginTop="20dp"
-        android:layout_marginEnd="24dp"
-        android:layout_marginRight="24dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
         android:background="@drawable/custom_button"
         android:text="ENTER"
         android:textColor="#0B2159"
@@ -57,14 +57,14 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="192dp"
-        android:layout_height="524dp"
+        android:layout_width="337dp"
+        android:layout_height="537dp"
         android:layout_marginBottom="4dp"
-        android:textSize="25sp"
         android:textColor="#2786EA"
+        android:textSize="25dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.305"
+        app:layout_constraintHorizontal_bias="0.829"
         app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

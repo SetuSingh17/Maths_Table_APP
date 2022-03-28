@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
                 int a = Integer.parseInt(s);
                 StringBuilder ans = new StringBuilder();
                 for(int i = 1;i<=10;++i){
-                    ans.append("=> "+a+" X "+i+" = "+a*i+"\n"+"\n");
+                    ans.append("==> " +a+" X "+i+" = "+a*i+"\n"+"\n");
 
                 textView.setText(ans);
 
